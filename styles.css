@@ -2,32 +2,55 @@ $fontcolor:  rgb(10%, 10%, 10%);
 $backgroundcolor: rgb(70%, 70%, 70%);
 
 body, html {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 110%;
-  background-color: white;
-  color: $fontcolor;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 110%;
+    background-color: white;
+    margin: 0;
+    color: $fontcolor;
 }
 
 .nav-bar{
-    width: 100%;
-    height: 150px;
+    width: 250px;
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 200%;
+    text-align: center;
+}
+.nav-item {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.nav-item:hover {
+    background-color: white;
+}
+
+.nav-item:active {
+    background-color: white;
 }
 
 .content {
     display: flex;
+    max-width: 1000px;
+    margin: auto;
 }
 
-.fun {
-    border: 1px solid green;
-    width: 50%;
-    padding: 30px;
+#tictactoe{
+    width: 400px !important;
 }
 
 .intro {
-    border: 1px solid green;
+    font-family: 'Source Sans Pro', sans-serif;
     width: 50%;
+    margin-top: 100px;
     padding: 50px;
-    font-size: 200%;
+    font-size: 300%;
+    color: white;
 }
 
 #tictactoe {
@@ -45,6 +68,17 @@ body, html {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
-
+    z-index: -2;
 }
+
+.codeGraphicEng {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 50%;
+    margin-top: 100px;
+    padding: 50px;
+    font-size: 120%;
+    color: white;
+    background-color: rgba(120, 140, 140, .7);
+    border-radius: 10px;
+}
+
