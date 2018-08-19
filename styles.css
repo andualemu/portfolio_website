@@ -1,0 +1,23 @@
+$fontcolor:  rgb(10%, 10%, 10%);
+$backgroundcolor: rgb(70%, 70%, 70%);
+
+body, html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 110%;
+  background-color: white;
+  color: $fontcolor;
+}
+
+.content {
+    display: flex;
+}
+
+.fun {
+    border: 1px solid green;
+    width: 50%;
+}
+
+.intro {
+    border: 1px solid green;
+    width: 50%;
+}
