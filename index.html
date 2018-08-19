@@ -4,21 +4,49 @@
         <title>Andualem U Kelbessa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="typed.js"></script>
+        <script type="text/javascript">
+                $(document).ready(function() {
+    
+                    $('.intro').click(function () {
+                        $(this).hide();
+                    });
+
+                    $(function(){
+                        $('.type').typed({
+                            strings: [
+                                "Hello Word",
+                                "hi"
+                            ],
+                        })
+                    })
+                });
+        </script>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="fullBackground"></div>
+        <div class="nav-bar">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Code</a>
+                <a href="#">Graphic</a>
+                <a href="#">Tangible</a>
+            </nav>
+        </div>
         <div class="content">
+            
             <div class="fun">
-                <h1>
-                    Let's go!
-                </h1>
+                <img id="tictactoe" src="images/tictactoe.png" alt="tic tac toe image" style="width:60%;"/>
             </div>
             <div class="intro">
+                Hello there!
                 I am Andualem
+                <span class="type"></span>
             </div>
         </div>
         
-        <script src="./script.js"></script>
+        
     </body>
 </html>
