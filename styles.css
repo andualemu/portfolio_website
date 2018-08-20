@@ -17,6 +17,7 @@ body, html {
     text-align: center;
 }
 .nav-item {
+    background-color: rgba(1,1,1,.5);
     font-family: 'Source Sans Pro', sans-serif;
     border: 2px solid black;
     border-radius: 15px;
@@ -24,14 +25,15 @@ body, html {
     margin-bottom: 50px;
     margin-top: 50px;
     padding: 10px;
+    color: white;
+}
+a {
+    text-decoration: none;
 }
 
 .nav-item:hover {
     background-color: white;
-}
-
-.nav-item:active {
-    background-color: white;
+    color: black;
 }
 
 .content {
