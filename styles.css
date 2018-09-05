@@ -4,7 +4,7 @@ $backgroundcolor: rgb(70%, 70%, 70%);
 body, html {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 110%;
-    background-color: white;
+    background-color: rgb(244, 140, 66);
     margin: 0;
     color: $fontcolor;
 }
